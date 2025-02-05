@@ -28,11 +28,11 @@ const jobListings = [
   },
   {
     id: 3,
-    title: "Backend Developer",
+    title: "Testing Associate, Device OS, Device OS",
     company: "Amazon",
-    experience: "4-7 years",
-    responsibilities: "Develop REST APIs, Database optimization",
-    link: "https://www.amazon.jobs",
+    experience: "Required Experinece",
+    responsibilities: "Read the job description after click on apply ",
+    link: "https://www.amazon.jobs/en/jobs/2884448/testing-associate-device-os-device-os",
   },
   {
     id: 4,
@@ -51,13 +51,17 @@ class HiringPortal extends Component {
         maxWidth="md"
         style={{
           marginTop: "20px",
-          height: "100vh",
           width: "100vw",
           minWidth: "100vw",
           display: "block",
         }}
       >
-        <Typography variant="h4" align="center" gutterBottom>
+        <Typography
+          variant="h4"
+          align="center"
+          gutterBottom
+          style={{ backgroundColor: "#1c1a7a", color: "white" }}
+        >
           Latest Job Openings
         </Typography>
         <Grid container spacing={3}>
