@@ -20,7 +20,7 @@ const BoxFooter = styled(Box)(({ theme }) => ({
   bottom: 0,
   left: 0,
   width: "100%",
-  height: "60px",
+  height: "30px",
   backgroundColor: "#1c1a7a",
   display: "flex",
   alignItems: "center",
@@ -30,7 +30,7 @@ const BoxFooter = styled(Box)(({ theme }) => ({
   fontWeight: "bold",
 
   [theme.breakpoints.down("sm")]: {
-    height: "50px",
+    height: "20px",
     fontSize: "14px",
     padding: "5px",
   },
