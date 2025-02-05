@@ -51,19 +51,13 @@ class HiringPortal extends Component {
         maxWidth="md"
         style={{
           marginTop: "20px",
-          backgroundColor: "black",
           height: "100vh",
-          width: "100vw", // Ensures full width
-          minWidth: "100vw", // Forces width to expand
-          display: "block", // Ensures it's not constrained by inline styles
+          width: "100vw",
+          minWidth: "100vw",
+          display: "block",
         }}
       >
-        <Typography
-          variant="h4"
-          align="center"
-          gutterBottom
-          style={{ color: "white" }}
-        >
+        <Typography variant="h4" align="center" gutterBottom>
           Latest Job Openings
         </Typography>
         <Grid container spacing={3}>
